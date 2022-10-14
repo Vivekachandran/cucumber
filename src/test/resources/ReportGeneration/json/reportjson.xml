@@ -1,0 +1,221 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-06T05:20:22.157Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2683600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bm2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 308800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bm1()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "To Pass Valid Username and Valid Password",
+        "description": "Background:",
+        "id": "to-check-login-function-in-facebook-application;to-pass-valid-username-and-valid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 206800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.am1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 125800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.am2()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10004729200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To Open Chrome Browser",
+            "match": {
+              "location": "StepDefinition.to_Open_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 400923400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To Pass Username and Password",
+            "match": {
+              "location": "StepDefinition.to_Pass_Username_and_Password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "sno",
+                  "name",
+                  "id",
+                  "user"
+                ]
+              },
+              {
+                "cells": [
+                  "1",
+                  "kavi",
+                  "123",
+                  "apple"
+                ]
+              },
+              {
+                "cells": [
+                  "2",
+                  "ravi",
+                  "456",
+                  "orange"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2501242200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "To Close Chrome Browser",
+            "match": {
+              "location": "StepDefinition.to_Close_Chrome_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Check Login Function in Facebook Application",
+    "description": "",
+    "id": "to-check-login-function-in-facebook-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature%20Files/LoginFunction.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-06T05:20:35.179Z",
+        "before": [
+          {
+            "result": {
+              "duration": 196900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bm2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 122800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bm1()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "To Pass all data",
+        "description": "",
+        "id": "to-create-new-account-in-facebook;to-pass-all-data",
+        "after": [
+          {
+            "result": {
+              "duration": 132000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.am1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 247100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.am2()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6510494700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To Open Chrome Browser",
+            "match": {
+              "location": "StepDefinition.to_Open_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "To Click Create New Button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1494900,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "To Click Signin Button",
+            "match": {
+              "location": "StepDefinition.to_Click_Signin_Button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Create new account in Facebook",
+    "description": "",
+    "id": "to-create-new-account-in-facebook",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature%20Files/createnew.feature",
+    "tags": []
+  }
+]
